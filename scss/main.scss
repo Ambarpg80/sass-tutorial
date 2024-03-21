@@ -24,25 +24,26 @@
     }
 }
 
-body{
+body {
     background: $primary-color;
     color: $text-color;
  }
 
-.main{
+.main { 
     @include flexCenter(row);
-    width:80%;
+    width: calc(80%-40%);
     margin: 0 auto ;
+    
 
-    #{&}_paragraph1{
+    #{&}_paragraph1 {
         font-weight: weight(bold);
-    }
-
-        &:hover{
+        
+        &:hover {
             color: pink;
+        }
     }
 
-   #{&}_paragraph2{
+    #{&}_paragraph2 {
         @extend .main_paragraph1;
 
         &:hover{
@@ -56,8 +57,6 @@ body{
 }
 
 .light{
-    @include theme($light-theme: true);
-
-    
+    @include theme($light-theme: true);    
 }
 

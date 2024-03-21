@@ -1,0 +1,12 @@
+{
+  "name": "sass-tutorial",
+  "version": "1.0.0",
+  "description": "This is a tutorial I followed to learn about Sass on Youtube from [freecodeCamp](\"https://www.youtube.com/watch?v=_a5j7KoflTs&t=2094s\").",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ambar Gonzalez",
+  "license": "ISC"
+}
